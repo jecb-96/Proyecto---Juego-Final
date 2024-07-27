@@ -1,0 +1,98 @@
+body{
+    background: #707B7C;
+    margin: 1em;
+    padding: 0;
+}
+
+header{
+    background: #943126;
+    border-radius: 20px;
+    height: 100px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2px;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.marcador{
+    border: 3px solid white;
+    margin: 20px auto;
+    width: 600px;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.container{
+    display: grid;
+    /* Espacio para separar usuario de pc */
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+    background: #943126;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.grid-item{
+    /* background: blue; */
+    /* border: 1px solid white; */
+    align-items: center;
+    /* height: 50px; */
+}
+
+.container2{
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+    /* background: salmon; */
+    gap: 10px;
+    padding: 10px 10px;
+    margin-left: 600px;
+    height: 80px;
+    width: 300px;
+    justify-content: space-around;
+}
+.opciones img{
+    /* border: 1px solid black; */
+    width:5em;
+}
+
+.result{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.result p{
+    text-align: center;
+}
+
+/* Animacion al pasar el cursor sobre las imagenes */
+.eleccion:hover{
+    background: red;
+    cursor: pointer;
+}
+
+#accion{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.vidas{
+    position: relative;
+    bottom: 75px;
+    background: #e06357;
+    border: 2px solid white;
+    margin-left: 900px;
+    height: 50px;
+    width: 242px;
+}
+
